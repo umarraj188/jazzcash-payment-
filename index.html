@@ -1,0 +1,24 @@
+<form action="JAZZCASH_GATEWAY_URL" method="POST">
+
+    <input type="hidden" name="pp_Version" value="1.1">
+    <input type="hidden" name="pp_TxnType" value="MWALLET">
+    <input type="hidden" name="pp_Language" value="EN">
+
+    <input type="hidden" name="pp_MerchantID" value="YOUR_MERCHANT_ID">
+    <input type="hidden" name="pp_Password" value="YOUR_PASSWORD">
+
+    <input type="hidden" name="pp_TxnRefNo" value="UNIQUE_TRANSACTION_ID">
+    <input type="hidden" name="pp_Amount" value="10000">
+    <input type="hidden" name="pp_TxnCurrency" value="PKR">
+    <input type="hidden" name="pp_TxnDateTime" value="20261108114500">
+
+    <input type="hidden" name="pp_BillReference" value="ORDER123">
+    <input type="hidden" name="pp_Description" value="Product Purchase">
+
+    <input type="hidden" name="pp_ReturnURL" value="https://yourdomain.com/response">
+
+    <input type="hidden" name="pp_SecureHash" value="BACKEND_GENERATED_HASH">
+
+    <button type="submit">Pay with JazzCash</button>
+
+</form>
